@@ -1,0 +1,2571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atupele Mkagula</title>
+<meta name="description" content="Portfolio of Atupele Nathan Mkagula, a Malawian front-end developer, cybersecurity enthusiast, and IT consultant based in Blantyre, Malawi.">
+<meta name="author" content="Atupele Nathan Mkagula">
+<meta name="theme-color" content="#00c8e8">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://about.me/atupele.mkagula">
+<meta property="og:title" content="Atupele Mkagula">
+<meta property="og:description" content="Malawian front-end developer, cybersecurity enthusiast, and IT consultant. Building secure, accessible, user-focused digital experiences from Blantyre.">
+<meta property="og:image" content="https://image.qwenlm.ai/public_source/1a96a020-39a0-4d81-b337-71d6f3500065/176286607-b88f-4539-abb9-4f6cb996db4c.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Atupele Mkagula">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://about.me/atupele.mkagula">
+<meta name="twitter:title" content="Atupele Mkagula">
+<meta name="twitter:description" content="Malawian front-end developer, cybersecurity enthusiast, and IT consultant. Building secure, accessible, user-focused digital experiences.">
+<meta name="twitter:image" content="https://image.qwenlm.ai/public_source/1a96a020-39a0-4d81-b337-71d6f3500065/176286607-b88f-4539-abb9-4f6cb996db4c.png">
+<meta name="twitter:site" content="@lord_tupe">
+<meta name="twitter:creator" content="@lord_tupe">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&family=Inter:wght@400;500;700;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --paper-cream: #f5f0e8;
+    --paper-aged: #ede4d3;
+    --paper-white: #faf8f4;
+    --ink-dark: #2c2420;
+    --ink-muted: #5a4f47;
+    --tape-yellow: #f5e6a3;
+    --tape-pink: #f0b4c9;
+    --tape-blue: #a8d8ea;
+    --tape-green: #b8e6b8;
+    --accent-pink: #ff3fa4;
+    --accent-purple: #8b5cf6;
+    --accent-red: #f87171;
+    --accent-cyan: #00c8e8;
+    --accent-green: #7dd86e;
+    --accent-mint: #6ee7b7;
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.25);
+    --shadow-soft: 0 4px 20px rgba(0,0,0,0.1);
+    --shadow-hard: 4px 4px 0 var(--ink-dark);
+    --transition-smooth: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --body-bg: #3a3530;
+    --particle-color: #ffffff;
+    --particle-line-color: #ffffff;
+    --hero-bg: #00c8e8;
+    --about-bg: #7dd86e;
+    --experience-bg: #f5f0e8;
+    --skills-bg: #f0e6d3;
+    --education-bg: #6ee7b7;
+    --timeline-bg: #ede4d3;
+    --contact-bg: #6ee7b7;
+    --footer-bg: #2c2420;
+    --footer-text: #f5f0e8;
+    --link-icon-bg: #f5e6a3;
+    --link-icon-text: #2c2420;
+    --link-icon-hover-bg: #ff3fa4;
+    --link-icon-hover-text: #ffffff;
+  }
+
+  [data-theme="dark"] {
+    --paper-cream: #2a2520;
+    --paper-aged: #1f1b17;
+    --paper-white: #332e28;
+    --ink-dark: #f0e8dc;
+    --ink-muted: #b8ad9f;
+    --tape-yellow: #d4c47a;
+    --tape-pink: #c98fa8;
+    --tape-blue: #7fb8d4;
+    --tape-green: #8fc98f;
+    --accent-pink: #ff6bb8;
+    --accent-purple: #a78bfa;
+    --accent-red: #fca5a5;
+    --accent-cyan: #22d3ee;
+    --accent-green: #86efac;
+    --accent-mint: #5eead4;
+    --glass-bg: rgba(0, 0, 0, 0.25);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --shadow-soft: 0 4px 20px rgba(0,0,0,0.4);
+    --shadow-hard: 4px 4px 0 var(--ink-dark);
+    --body-bg: #0f0d0b;
+    --particle-color: #f0e8dc;
+    --particle-line-color: #f0e8dc;
+    --hero-bg: #0a3d4a;
+    --about-bg: #2d5a27;
+    --experience-bg: #2a2520;
+    --skills-bg: #3a3025;
+    --education-bg: #1f4a3a;
+    --timeline-bg: #2a2520;
+    --contact-bg: #1f4a3a;
+    --footer-bg: #0a0908;
+    --footer-text: #f0e8dc;
+    --link-icon-bg: #d4c47a;
+    --link-icon-text: #0a0908;
+    --link-icon-hover-bg: #ff6bb8;
+    --link-icon-hover-text: #ffffff;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Space Mono', monospace;
+    overflow-x: hidden;
+    background: var(--body-bg);
+    color: var(--ink-dark);
+    line-height: 1.6;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    transition: opacity 0.4s ease;
+  }
+
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background: var(--ink-dark);
+    color: var(--paper-white);
+    padding: 10px 20px;
+    z-index: 10000;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: top 0.3s;
+  }
+  .skip-link:focus { top: 10px; }
+
+  /* ===== THEME TOGGLE ===== */
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    width: 44px;
+    height: 44px;
+    background: var(--paper-white);
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    color: var(--ink-dark);
+  }
+
+  .theme-toggle:hover {
+    transform: rotate(15deg) scale(1.1);
+  }
+
+  .theme-toggle:focus-visible {
+    outline: 3px solid var(--accent-pink);
+    outline-offset: 3px;
+  }
+
+  .theme-toggle .icon-sun,
+  .theme-toggle .icon-moon {
+    position: absolute;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  [data-theme="light"] .theme-toggle .icon-moon,
+  [data-theme="dark"] .theme-toggle .icon-sun {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.5);
+  }
+
+  [data-theme="light"] .theme-toggle .icon-sun,
+  [data-theme="dark"] .theme-toggle .icon-moon {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+
+  @media (max-width: 768px) {
+    .theme-toggle {
+      top: 20px;
+      left: 20px;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+
+  /* ===== NAVIGATION ===== */
+  .scrap-nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--paper-white);
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    padding: 12px 16px;
+    transform: rotate(1deg);
+    max-width: 200px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .scrap-nav ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+
+  .scrap-nav a {
+    color: var(--ink-dark);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    transition: background 0.2s, color 0.3s;
+    display: block;
+  }
+
+  .scrap-nav a:hover, .scrap-nav a:focus {
+    background: var(--tape-yellow);
+    outline: 2px solid var(--ink-dark);
+    outline-offset: 2px;
+  }
+
+  .nav-toggle {
+    display: none;
+    background: var(--paper-white);
+    border: 2px solid var(--ink-dark);
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: var(--shadow-hard);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    color: var(--ink-dark);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    .nav-toggle { display: block; }
+    .scrap-nav {
+      position: fixed;
+      top: 0; right: 0; bottom: 0;
+      width: 220px;
+      max-width: none;
+      transform: translateX(100%);
+      transition: transform 0.4s var(--transition-smooth), background-color 0.3s ease;
+      border-radius: 0;
+      padding: 60px 20px 20px;
+    }
+    .scrap-nav.open { transform: translateX(0); }
+    .nav-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 999;
+    }
+    .nav-overlay.active { display: block; }
+  }
+
+  /* ===== SCRAPBOOK PAGE CONTAINER ===== */
+  .scrapbook-page {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    transition: background-color 0.4s ease;
+  }
+
+  .page-turn-enter {
+    animation: pageTurnIn 1s var(--transition-smooth) forwards;
+  }
+
+  @keyframes pageTurnIn {
+    0% { opacity: 0; transform: perspective(1200px) rotateY(-12deg) translateX(-40px); filter: blur(3px); }
+    50% { opacity: 0.8; filter: blur(1px); }
+    100% { opacity: 1; transform: perspective(1200px) rotateY(0) translateX(0); filter: blur(0); }
+  }
+
+  .collage-float {
+    animation: collageFloat 6s ease-in-out infinite;
+  }
+
+  @keyframes collageFloat {
+    0%, 100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
+    50% { transform: translateY(-6px) rotate(calc(var(--rot, 0deg) + 0.8deg)); }
+  }
+
+  .washi-tape {
+    position: absolute;
+    height: 24px;
+    width: 100px;
+    opacity: 0.85;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    background-size: 8px 100%;
+  }
+
+  .washi-yellow { background: var(--tape-yellow); }
+  .washi-pink { background: var(--tape-pink); }
+  .washi-blue { background: var(--tape-blue); }
+  .washi-green { background: var(--tape-green); }
+
+  .polaroid {
+    background: var(--paper-white);
+    padding: 10px 10px 36px 10px;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.18), 0 0 0 1px rgba(0,0,0,0.04);
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.3s ease;
+  }
+
+  .polaroid:hover {
+    transform: scale(1.04) rotate(0deg) !important;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.22);
+    z-index: 5;
+  }
+
+  .polaroid img {
+    width: 100%;
+    display: block;
+    filter: sepia(0.1) contrast(1.02);
+  }
+
+  .polaroid-caption {
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    color: var(--ink-muted);
+    transition: color 0.3s ease;
+  }
+
+  .stamp {
+    width: 80px;
+    height: 80px;
+    border: 3px dashed #c0392b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c0392b;
+    font-family: 'Caveat', cursive;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    transform: rotate(-15deg);
+    opacity: 0;
+    position: absolute;
+    z-index: 5;
+    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .stamp.visible {
+    opacity: 0.75;
+    transform: scale(1) rotate(-15deg);
+  }
+
+  .sticky-note {
+    background: #fef9c3;
+    padding: 18px 20px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.12);
+    position: relative;
+    font-family: 'Caveat', cursive;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .sticky-note::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 22px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05), transparent);
+  }
+
+  .page-number {
+    position: absolute;
+    bottom: 18px;
+    right: 28px;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    color: rgba(0,0,0,0.25);
+    z-index: 5;
+  }
+
+  .scrap-banner {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border: 3px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    color: var(--ink-dark);
+  }
+
+  .scrap-banner:hover {
+    transform: rotate(0deg) scale(1.04);
+  }
+
+  .scrap-banner::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 20%;
+    right: 20%;
+    height: 10px;
+    background: var(--tape-yellow);
+    opacity: 0.85;
+    transform: rotate(-1deg);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .collage-reveal {
+    opacity: 0;
+    transform: scale(0.85) rotate(-4deg);
+    transition: all 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .collage-reveal.visible {
+    opacity: 1;
+    transform: scale(1) rotate(var(--rot, 0deg));
+  }
+
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: var(--shadow-soft);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: var(--hero-bg);
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 40px 20px;
+    transition: background-color 0.4s ease;
+  }
+
+  #particleCanvas {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .lottie-music {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 25%;
+    right: 15%;
+    z-index: 3;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 28px, rgba(255,255,255,0.03) 28px, rgba(255,255,255,0.03) 29px);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .hero-label {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    max-width: 160px;
+    z-index: 5;
+    background: var(--paper-white);
+    padding: 10px 14px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.12);
+    transform: rotate(-3deg);
+    color: var(--ink-dark);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .hero-label span {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--accent-pink);
+  }
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    max-width: 950px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-left {
+    flex: 1;
+    position: relative;
+    min-height: 400px;
+  }
+
+  .banner-pink {
+    background: var(--accent-pink);
+    color: #1a1a1a;
+    padding: 16px 28px;
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    transform: rotate(-8deg);
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border: 3px solid #1a1a1a;
+    box-shadow: var(--shadow-hard);
+    z-index: 2;
+  }
+
+  .banner-pink .smiley {
+    width: 38px;
+    height: 38px;
+    border: 3px solid #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.2);
+  }
+
+  .hero-photo-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-photo {
+    width: 340px;
+    height: 460px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .banner-purple {
+    background: var(--accent-purple);
+    color: #1a1a1a;
+    padding: 14px 26px;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: rotate(6deg);
+    position: absolute;
+    bottom: 20px;
+    right: -30px;
+    border: 3px solid #1a1a1a;
+    box-shadow: var(--shadow-hard);
+    z-index: 3;
+  }
+
+  .hero-tagline {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    color: var(--ink-dark);
+    background: var(--paper-white);
+    padding: 10px 16px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: 2px 2px 0 var(--ink-dark);
+    transform: rotate(-2deg);
+    z-index: 3;
+    max-width: 260px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .hero-deco {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* ===== ABOUT ===== */
+  .about {
+    background: var(--about-bg);
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+  }
+
+  .about::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.04) 35px, rgba(255,255,255,0.04) 36px);
+    pointer-events: none;
+  }
+
+  .about-image {
+    flex: 0 0 42%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .about-image .polaroid {
+    max-width: 380px;
+    transform: rotate(-2deg);
+  }
+
+  .about-content {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .about-content .section-label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ink-muted);
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+  }
+
+  .about-content h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .about-content h2 .highlight {
+    background: var(--tape-yellow);
+    padding: 2px 8px;
+    display: inline;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    max-width: 520px;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .philosophy-box {
+    background: var(--paper-white);
+    padding: 20px 24px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    margin-top: 24px;
+    max-width: 480px;
+    transform: rotate(-1deg);
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .philosophy-box::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    right: 30%;
+    height: 10px;
+    background: var(--tape-pink);
+    opacity: 0.85;
+    transform: rotate(1deg);
+  }
+
+  .philosophy-box .label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-pink);
+    margin-bottom: 6px;
+  }
+
+  .philosophy-box p {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--ink-dark);
+  }
+
+  /* ===== EXPERIENCE ===== */
+  .experience {
+    background: var(--experience-bg);
+    padding: 80px 40px;
+    position: relative;
+    transition: background-color 0.4s ease;
+  }
+
+  .experience::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 10% 20%, rgba(0,0,0,0.02) 0%, transparent 50%), radial-gradient(circle at 90% 80%, rgba(0,0,0,0.02) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .exp-card {
+    background: var(--paper-white);
+    padding: 28px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .exp-card:hover {
+    transform: translateY(-4px) rotate(0deg) !important;
+    box-shadow: 6px 6px 0 var(--ink-dark);
+  }
+
+  .exp-card:nth-child(1) { transform: rotate(-0.8deg); }
+  .exp-card:nth-child(2) { transform: rotate(0.6deg); }
+  .exp-card:nth-child(3) { transform: rotate(-0.4deg); }
+
+  .exp-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    gap: 12px;
+  }
+
+  .exp-card-title {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .exp-card-company {
+    font-size: 14px;
+    color: var(--accent-pink);
+    font-weight: 700;
+  }
+
+  .exp-card-period {
+    font-size: 12px;
+    font-weight: 700;
+    background: var(--tape-yellow);
+    padding: 4px 10px;
+    border: 1px solid var(--ink-dark);
+    white-space: nowrap;
+    flex-shrink: 0;
+    color: var(--ink-dark);
+  }
+
+  .exp-card-type {
+    font-size: 11px;
+    color: var(--ink-muted);
+    margin-bottom: 14px;
+    font-style: italic;
+  }
+
+  .exp-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+
+  .exp-card ul li {
+    font-size: 13px;
+    line-height: 1.6;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    color: var(--ink-muted);
+    transition: color 0.3s ease;
+  }
+
+  .exp-card ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    color: var(--accent-purple);
+    font-size: 12px;
+  }
+
+  .exp-card .achievement {
+    background: var(--tape-green);
+    padding: 10px 14px;
+    border-left: 3px solid var(--ink-dark);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--ink-dark);
+  }
+
+  .exp-card .achievement .ach-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-muted);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ===== PROJECTS ===== */
+  .projects {
+    background: var(--skills-bg);
+    padding: 80px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+  }
+
+  .projects::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-30deg, transparent, transparent 50px, rgba(0,0,0,0.015) 50px, rgba(0,0,0,0.015) 51px);
+    pointer-events: none;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .project-card {
+    background: var(--paper-white);
+    padding: 28px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px) rotate(0deg) !important;
+    box-shadow: 6px 6px 0 var(--ink-dark);
+  }
+
+  .project-card:nth-child(1) { transform: rotate(-0.7deg); }
+  .project-card:nth-child(2) { transform: rotate(0.5deg); }
+  .project-card:nth-child(3) { transform: rotate(-0.4deg); }
+
+  .project-card-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--tape-yellow);
+    border: 2px solid var(--ink-dark);
+    border-radius: 8px;
+    font-size: 32px;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .project-card-title {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    line-height: 1.3;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .project-card-subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-pink);
+    margin-bottom: 12px;
+  }
+
+  .project-card-desc {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--ink-muted);
+    margin-bottom: 16px;
+    flex-grow: 1;
+    transition: color 0.3s ease;
+  }
+
+  .project-card-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .tech-tag {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    background: var(--tape-blue);
+    border: 1px solid var(--ink-dark);
+    color: var(--ink-dark);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  .project-card-impact {
+    background: var(--tape-green);
+    padding: 10px 14px;
+    border-left: 3px solid var(--ink-dark);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--ink-dark);
+  }
+
+  .project-card-impact .impact-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-muted);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* ===== SKILLS ===== */
+  .skills {
+    background: var(--skills-bg);
+    padding: 80px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+  }
+
+  .skills::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-30deg, transparent, transparent 50px, rgba(0,0,0,0.015) 50px, rgba(0,0,0,0.015) 51px);
+    pointer-events: none;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .skill-card {
+    background: var(--paper-white);
+    padding: 28px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    position: relative;
+    transition: all 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 6px 6px 0 var(--ink-dark);
+  }
+
+  .skill-card-icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-card-icon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-card h3 {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--accent-pink);
+    text-underline-offset: 4px;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .skill-card ul li {
+    font-size: 13px;
+    line-height: 1.7;
+    padding-left: 18px;
+    position: relative;
+    color: var(--ink-muted);
+    margin-bottom: 4px;
+    transition: color 0.3s ease;
+  }
+
+  .skill-card ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-purple);
+    font-weight: 700;
+  }
+
+  /* ===== EDUCATION ===== */
+  .education {
+    background: var(--education-bg);
+    padding: 80px 40px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+  }
+
+  .education::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,0.05) 40px, rgba(255,255,255,0.05) 41px);
+    pointer-events: none;
+  }
+
+  .edu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .edu-card {
+    background: var(--paper-white);
+    padding: 24px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .edu-card:hover {
+    transform: translateY(-3px) rotate(0deg) !important;
+  }
+
+  .edu-card:nth-child(1) { transform: rotate(-1deg); }
+  .edu-card:nth-child(2) { transform: rotate(0.7deg); }
+  .edu-card:nth-child(3) { transform: rotate(-0.5deg); }
+
+  .edu-card-year {
+    font-size: 12px;
+    font-weight: 700;
+    background: var(--tape-blue);
+    padding: 4px 10px;
+    border: 1px solid var(--ink-dark);
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--ink-dark);
+  }
+
+  .edu-card h3 {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 6px;
+    line-height: 1.3;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .edu-card .institution {
+    font-size: 13px;
+    color: var(--accent-purple);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .edu-card p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    transition: color 0.3s ease;
+  }
+
+  .cert-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .cert-list h3 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .cert-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .cert-item {
+    background: var(--paper-white);
+    padding: 16px 20px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: 2px 2px 0 var(--ink-dark);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.2s, background-color 0.3s ease, border-color 0.3s ease;
+    color: var(--ink-dark);
+  }
+
+  .cert-item:hover {
+    transform: translateX(4px);
+  }
+
+  .cert-item .cert-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  /* ===== TIMELINE ===== */
+  .timeline-section {
+    background: var(--timeline-bg);
+    padding: 80px 40px;
+    position: relative;
+    transition: background-color 0.4s ease;
+  }
+
+  .timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--ink-dark);
+    opacity: 0.3;
+    transition: background-color 0.3s ease;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 16px 20px;
+    background: var(--paper-white);
+    border: 2px solid var(--ink-dark);
+    box-shadow: 2px 2px 0 var(--ink-dark);
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .timeline-item:hover {
+    transform: translateX(6px);
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    background: var(--accent-pink);
+    border: 3px solid var(--ink-dark);
+    border-radius: 50%;
+    transition: border-color 0.3s ease;
+  }
+
+  .timeline-year {
+    font-size: 12px;
+    font-weight: 900;
+    color: var(--accent-pink);
+    margin-bottom: 4px;
+  }
+
+  .timeline-title {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 4px;
+    color: var(--ink-dark);
+    transition: color 0.3s ease;
+  }
+
+  .timeline-desc {
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.5;
+    transition: color 0.3s ease;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact {
+    background: var(--contact-bg);
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+  }
+
+  .contact::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(255,255,255,0.05) 40px, rgba(255,255,255,0.05) 41px);
+    pointer-events: none;
+  }
+
+  .contact-image {
+    flex: 0 0 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+  }
+
+  .contact-image .polaroid {
+    max-width: 360px;
+    transform: rotate(2deg);
+  }
+
+  .contact-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .contact-info-card {
+    background: var(--paper-white);
+    padding: 28px;
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    transform: rotate(-1deg);
+    max-width: 420px;
+    position: relative;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .contact-info-card::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 20%;
+    right: 20%;
+    height: 10px;
+    background: var(--tape-blue);
+    opacity: 0.85;
+    transform: rotate(0.5deg);
+  }
+
+  .contact-info-card h3 {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: var(--accent-pink);
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(0,0,0,0.15);
+    text-decoration: none;
+    color: var(--ink-dark);
+    font-size: 13px;
+    font-weight: 700;
+    transition: color 0.2s;
+  }
+
+  .contact-link:last-child { border-bottom: none; }
+
+  .contact-link:hover {
+    color: var(--accent-pink);
+  }
+
+  .contact-link:hover .link-icon {
+    background: var(--link-icon-hover-bg);
+    color: var(--link-icon-hover-text);
+  }
+
+  .link-icon {
+    width: 32px;
+    height: 32px;
+    background: var(--link-icon-bg);
+    border: 2px solid var(--ink-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    transition: all 0.2s;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: var(--link-icon-text);
+  }
+
+  .banner-connect {
+    background: var(--accent-red);
+    color: #1a1a1a;
+    padding: 18px 36px;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: inline-block;
+    transform: rotate(-3deg);
+    border: 3px solid #1a1a1a;
+    box-shadow: var(--shadow-hard);
+    align-self: flex-start;
+    position: relative;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .banner-connect:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+
+  .banner-connect::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 25%;
+    right: 25%;
+    height: 10px;
+    background: var(--tape-yellow);
+    opacity: 0.85;
+  }
+
+  /* ===== FOOTER ===== */
+  .scrap-footer {
+    background: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 30px 40px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .scrap-footer p {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+
+  .scrap-footer .footer-links {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .scrap-footer .footer-links a {
+    color: var(--tape-yellow);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    transition: color 0.2s;
+  }
+
+  .scrap-footer .footer-links a:hover {
+    color: var(--accent-pink);
+    text-decoration: underline;
+  }
+
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    background: var(--paper-white);
+    border: 2px solid var(--ink-dark);
+    box-shadow: var(--shadow-hard);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    pointer-events: none;
+    color: var(--ink-dark);
+  }
+
+  .scroll-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .scroll-top:hover {
+    background: var(--tape-yellow);
+    transform: translateY(-3px);
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px) {
+    .hero-content { flex-direction: column; gap: 30px; }
+    .hero-left { min-height: 200px; width: 100%; text-align: center; }
+    .hero-photo { width: 260px; height: 340px; }
+    .banner-pink { font-size: 26px; padding: 12px 20px; position: relative; top: auto; left: auto; transform: rotate(-3deg); display: inline-flex; }
+    .banner-purple { font-size: 22px; padding: 12px 20px; right: auto; bottom: auto; position: relative; transform: rotate(3deg); display: inline-block; margin-top: 10px; }
+    .hero-photo-wrapper { display: flex; flex-direction: column; align-items: center; }
+    .hero-tagline { position: relative; bottom: auto; left: auto; margin-top: 20px; }
+
+    .about { flex-direction: column; }
+    .about-image { flex: none; padding: 30px 20px; }
+    .about-content { padding: 30px 20px; }
+
+    .experience, .projects, .skills, .education, .timeline-section { padding: 60px 20px; }
+
+    .contact { flex-direction: column; }
+    .contact-image { flex: none; padding: 30px 20px; }
+    .contact-content { padding: 30px 20px; }
+    .contact-info-card { max-width: 100%; }
+  }
+
+  @media (max-width: 480px) {
+    .hero-label { font-size: 10px; top: 80px; left: 15px; padding: 8px 10px; }
+    .banner-pink { font-size: 20px; }
+    .banner-purple { font-size: 18px; }
+    .hero-photo { width: 200px; height: 270px; }
+    .section-header h2 { font-size: 24px; }
+    .scrap-banner { font-size: 18px; padding: 12px 20px; }
+    .experience-grid, .projects-grid, .skills-grid, .edu-grid, .cert-items { grid-template-columns: 1fr; }
+    .banner-connect { font-size: 22px; padding: 14px 24px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+    .collage-reveal { opacity: 1; transform: none; }
+    .stamp { opacity: 0.75; transform: scale(1) rotate(-15deg); }
+  }
+
+  a:focus-visible, button:focus-visible {
+    outline: 3px solid var(--accent-pink);
+    outline-offset: 3px;
+  }
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Theme Toggle (top-left, opposite nav) -->
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">
+  <span class="icon-sun" aria-hidden="true">️</span>
+  <span class="icon-moon" aria-hidden="true"></span>
+</button>
+
+<!-- Navigation -->
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+<div class="nav-overlay" id="navOverlay"></div>
+<nav class="scrap-nav" id="scrapNav" aria-label="Main navigation">
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#timeline">Timeline</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main id="main-content">
+
+<!-- ===== HERO ===== -->
+<section class="hero scrapbook-page page-turn-enter" id="hero" aria-label="Introduction">
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+  <div id="lottie-music" class="lottie-music" aria-hidden="true"></div>
+
+  <div class="hero-deco" style="top: 15%; right: 8%; width: 60px; height: 60px; border: 3px dashed rgba(0,0,0,0.2); border-radius: 50%;" aria-hidden="true"></div>
+  <div class="hero-deco" style="bottom: 25%; left: 5%; font-size: 36px; opacity: 0.25;" aria-hidden="true">✦</div>
+  <div class="hero-deco" style="top: 35%; left: 12%; font-size: 20px; letter-spacing: 8px; opacity: 0.25;" aria-hidden="true">• • • • •</div>
+
+  <div class="washi-tape washi-yellow" style="top: 15px; right: 120px; transform: rotate(15deg);" aria-hidden="true"></div>
+  <div class="washi-tape washi-pink" style="bottom: 30px; left: 60px; transform: rotate(-8deg);" aria-hidden="true"></div>
+
+  <div class="hero-label collage-reveal" style="--rot: -3deg;">
+    FRONT-END<br>DEVELOPER &<br><span>IT PROFESSIONAL</span>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="banner-pink scrap-banner collage-reveal" style="--rot: -8deg;">
+        <div class="smiley" aria-hidden="true">😊</div>
+        ATUPELE
+      </div>
+    </div>
+
+    <div class="hero-photo-wrapper collage-reveal" style="--rot: 2deg;">
+      <div class="polaroid" style="transform: rotate(2deg);">
+        <img src="https://image.qwenlm.ai/public_source/1a96a020-39a0-4d81-b337-71d6f3500065/176286607-b88f-4539-abb9-4f6cb996db4c.png" alt="Illustrated portrait of Atupele Mkagula" class="hero-photo" loading="eager">
+        <div class="polaroid-caption">Blantyre, Malawi 🇼</div>
+      </div>
+      <div class="banner-purple scrap-banner" style="transform: rotate(6deg);">MKAGULA</div>
+    </div>
+  </div>
+
+  <div class="hero-tagline collage-reveal" style="--rot: -2deg;">
+    "Technical skill and creative thinking belong together."
+  </div>
+
+  <div class="stamp" style="bottom: 60px; right: 40px;" aria-hidden="true">
+    FRONT-END<br>DEV 2026
+  </div>
+
+  <div class="page-number" aria-hidden="true">1</div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about scrapbook-page" id="about" aria-label="About Atupele">
+  <div class="washi-tape washi-green" style="top: 20px; left: 20px; transform: rotate(-5deg); z-index: 10;" aria-hidden="true"></div>
+
+  <div class="about-image">
+    <div class="polaroid collage-reveal" style="--rot: -2deg;">
+      <img src="https://image.qwenlm.ai/public_source/1a96a020-39a0-4d81-b337-71d6f3500065/117fc90be-4b24-43d6-9367-f62f779f52e4.png" alt="Illustrated creative workspace with technology and music elements" style="width: 100%;" loading="lazy">
+      <div class="polaroid-caption">Where code meets creativity</div>
+    </div>
+  </div>
+
+  <div class="about-content">
+    <div class="section-label collage-reveal" style="--rot: 0deg;">About Me</div>
+    <h2 class="collage-reveal" style="--rot: -1deg;">
+      Front-End Developer,<br>
+      <span class="highlight">Cybersecurity Enthusiast</span><br>
+      & IT Consultant
+    </h2>
+
+    <p class="about-text collage-reveal" style="--rot: 0.5deg;">
+      I am a Malawian technology professional based in Blantyre, specializing in front-end development, secure digital systems, cybersecurity fundamentals, and IT consulting. I build responsive, accessible web interfaces using HTML, CSS, and vanilla JavaScript.
+    </p>
+
+    <p class="about-text collage-reveal" style="--rot: -0.5deg;">
+      What sets my approach apart is my background in Music Production from the University of Malawi. The discipline of music production strengthened my understanding of systems thinking, pattern recognition, iteration, and creative problem-solving. These skills continue to shape how I approach user experience design and front-end architecture.
+    </p>
+
+    <p class="about-text collage-reveal" style="--rot: 0.3deg;">
+      I believe technology should be practical, human-centered, and solution-focused. I am committed to helping individuals and organizations across Malawi adopt technology effectively while maintaining strong cybersecurity practices.
+    </p>
+
+    <div class="philosophy-box collage-reveal" style="--rot: -1deg;">
+      <div class="label">Core Philosophy</div>
+      <p>"Technical skill and creative thinking belong together."</p>
+    </div>
+  </div>
+
+  <div class="stamp" style="bottom: 40px; right: 30px; border-color: var(--ink-dark); color: var(--ink-dark);" aria-hidden="true">
+    MALAWI<br>MADE
+  </div>
+
+  <div class="page-number" aria-hidden="true">2</div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="experience scrapbook-page" id="experience" aria-label="Work Experience">
+  <div class="washi-tape washi-pink" style="top: 10px; left: 50%; transform: translateX(-50%) rotate(1deg); z-index: 10;" aria-hidden="true"></div>
+
+  <div class="section-header">
+    <div class="scrap-banner collage-reveal" style="--rot: -1deg;">
+      <h2>WORK EXPERIENCE</h2>
+    </div>
+  </div>
+
+  <div class="experience-grid">
+    <article class="exp-card collage-reveal" style="--rot: -0.8deg;" aria-label="Customer Support Agent at betPawa">
+      <div class="exp-card-header">
+        <div>
+          <div class="exp-card-title">Customer Support Agent</div>
+          <div class="exp-card-company">betPawa</div>
+        </div>
+        <div class="exp-card-period">2025 - Present</div>
+      </div>
+      <div class="exp-card-type">Full-Time Employment</div>
+      <ul>
+        <li>Multi-channel customer support across Sportsbook, Casino, and Virtual Sports products</li>
+        <li>Troubleshoot front-end user issues, payment workflows, and account-related challenges</li>
+        <li>Support identity verification and KYC processes</li>
+        <li>Enforce Responsible Gambling procedures and policies</li>
+        <li>Resolve escalated customer concerns and support tickets</li>
+      </ul>
+      <div class="achievement">
+        <span class="ach-label">Key Achievement</span>
+        Consistently maintained a 75%+ First Contact Resolution (FCR) rate on account and OTP-related issues
+      </div>
+    </article>
+
+    <article class="exp-card collage-reveal" style="--rot: 0.6deg;" aria-label="Credit Officer at Yellow Solar Africa">
+      <div class="exp-card-header">
+        <div>
+          <div class="exp-card-title">Credit Officer</div>
+          <div class="exp-card-company">Yellow Solar Africa</div>
+        </div>
+        <div class="exp-card-period">2024 - 2025</div>
+      </div>
+      <div class="exp-card-type">Full-Time Employment</div>
+      <ul>
+        <li>Managed digital repayment portfolios</li>
+        <li>Conducted data-driven credit risk assessments</li>
+        <li>Maintained CRM workflows within a sub-9-hour service-level agreement</li>
+        <li>Monitored client accounts and repayment performance</li>
+        <li>Generated reports to support operational decision-making</li>
+      </ul>
+    </article>
+
+    <article class="exp-card collage-reveal" style="--rot: -0.4deg;" aria-label="IT Consultant and Freelancer">
+      <div class="exp-card-header">
+        <div>
+          <div class="exp-card-title">IT Consultant & Freelancer</div>
+          <div class="exp-card-company">Self-Employed</div>
+        </div>
+        <div class="exp-card-period">2020 - Present</div>
+      </div>
+      <div class="exp-card-type">Independent / Freelance</div>
+      <ul>
+        <li>Computer hardware diagnostics and maintenance</li>
+        <li>Software installation, troubleshooting, and support</li>
+        <li>Front-end website development using HTML, CSS, and JavaScript</li>
+        <li>Cybersecurity awareness training and digital safety education</li>
+        <li>Digital literacy coaching for individuals and small businesses</li>
+        <li>Workflow digitization support for local SMEs</li>
+      </ul>
+      <div class="achievement">
+        <span class="ach-label">Key Achievement</span>
+        Trained more than 50 individuals and small businesses in digital literacy and cybersecurity best practices across Malawi
+      </div>
+    </article>
+  </div>
+
+  <div class="page-number" aria-hidden="true">3</div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects scrapbook-page" id="projects" aria-label="Featured Projects">
+  <div class="washi-tape washi-blue" style="top: 15px; right: 80px; transform: rotate(10deg); z-index: 10;" aria-hidden="true"></div>
+
+  <div class="section-header">
+    <div class="scrap-banner collage-reveal" style="--rot: -1deg;">
+      <h2>FEATURED PROJECTS</h2>
+    </div>
+  </div>
+
+  <div class="projects-grid">
+    <article class="project-card collage-reveal" style="--rot: -0.7deg;" aria-label="betPawa FAQ Component project">
+      <div class="project-card-icon" aria-hidden="true">❓</div>
+      <h3 class="project-card-title">betPawa FAQ Component</h3>
+      <div class="project-card-subtitle">Accessible Accordion UI</div>
+      <p class="project-card-desc">
+        A fully accessible FAQ accordion component built for betPawa's customer support flow. Designed with ARIA attributes, keyboard navigation, and focus management to help users self-serve common account and OTP questions.
+      </p>
+      <div class="project-card-tech">
+        <!-- Removed HTML5, CSS3, Vanilla JS, ARIA as requested -->
+      </div>
+      <div class="project-card-impact">
+        <span class="impact-label">Impact</span>
+        Contributed to improved first-contact resolution by enabling users to resolve common issues without agent escalation.
+      </div>
+    </article>
+
+    <article class="project-card collage-reveal" style="--rot: 0.5deg;" aria-label="Cybersecurity Awareness Microsite project">
+      <div class="project-card-icon" aria-hidden="true">🛡️</div>
+      <h3 class="project-card-title">Cybersecurity Awareness Microsite</h3>
+      <div class="project-card-subtitle">Educational Single-Page Resource</div>
+      <p class="project-card-desc">
+        A lightweight, single-page educational resource designed for the 50+ individuals and small businesses I trained across Malawi. Covers password hygiene, phishing recognition, and safe browsing practices in clear, jargon-free language.
+      </p>
+      <div class="project-card-tech">
+        <span class="tech-tag">Responsive</span>
+        <span class="tech-tag">Offline-Ready</span>
+      </div>
+      <div class="project-card-impact">
+        <span class="impact-label">Impact</span>
+        Used as the primary training material in digital literacy workshops across Malawi, reaching 50+ participants.
+      </div>
+    </article>
+
+    <article class="project-card collage-reveal" style="--rot: -0.4deg;" aria-label="SME Workflow Digitization project">
+      <div class="project-card-icon" aria-hidden="true">💼</div>
+      <h3 class="project-card-title">SME Workflow Digitization</h3>
+      <div class="project-card-subtitle">Ongoing IT Consulting & Front-End Support</div>
+      <p class="project-card-desc">
+        Ongoing consulting and front-end development support for local Malawian small and medium enterprises. Includes lightweight web interfaces for workflow tracking, client management, and basic digital record-keeping.
+      </p>
+      <div class="project-card-tech">
+        <span class="tech-tag">JavaScript</span>
+        <span class="tech-tag">Consulting</span>
+      </div>
+      <div class="project-card-impact">
+        <span class="impact-label">Impact</span>
+        Helping local businesses transition from paper-based processes to simple, secure digital workflows.
+      </div>
+    </article>
+  </div>
+
+  <div class="sticky-note collage-reveal" style="--rot: -3deg; position: absolute; bottom: 30px; left: 30px; max-width: 220px; font-size: 15px; z-index: 5;">
+     Strictly front-end. No backend. Just clean, secure, user-focused code.
+  </div>
+
+  <div class="page-number" aria-hidden="true">4</div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills scrapbook-page" id="skills" aria-label="Technical Skills">
+  <svg class="scrap-deco" style="position: absolute; top: 20px; left: 20px;" width="60" height="60" viewBox="0 0 60 60" aria-hidden="true">
+    <path d="M5 5 L25 5 M5 5 L5 25" stroke="var(--ink-dark)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+    <circle cx="5" cy="5" r="3" fill="var(--accent-pink)" opacity="0.5"/>
+  </svg>
+  <svg class="scrap-deco" style="position: absolute; bottom: 20px; right: 20px;" width="60" height="60" viewBox="0 0 60 60" aria-hidden="true">
+    <path d="M55 55 L35 55 M55 55 L55 35" stroke="var(--ink-dark)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3"/>
+    <circle cx="55" cy="55" r="3" fill="var(--accent-purple)" opacity="0.5"/>
+  </svg>
+
+  <div class="section-header">
+    <div class="scrap-banner collage-reveal" style="--rot: -1deg;">
+      <h2>TECHNICAL PROFILE</h2>
+    </div>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card collage-reveal" style="--rot: -0.8deg;">
+      <div class="skill-card-icon">
+        <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <rect x="8" y="10" width="44" height="30" rx="3" stroke="var(--accent-pink)" stroke-width="2.5" fill="none"/>
+          <rect x="12" y="14" width="36" height="22" rx="2" stroke="var(--accent-pink)" stroke-width="1.5" fill="none"/>
+          <path d="M4 44 L56 44" stroke="var(--accent-pink)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M12 50 L48 50" stroke="var(--accent-pink)" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="16" y1="44" x2="16" y2="50" stroke="var(--accent-pink)" stroke-width="1.5"/>
+          <line x1="30" y1="44" x2="30" y2="50" stroke="var(--accent-pink)" stroke-width="1.5"/>
+          <line x1="44" y1="44" x2="44" y2="50" stroke="var(--accent-pink)" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <h3>Front-End Development</h3>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Vanilla JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Accessibility Best Practices</li>
+        <li>Performance Optimization</li>
+      </ul>
+    </div>
+
+    <div class="skill-card collage-reveal" style="--rot: 0.6deg;">
+      <div class="skill-card-icon">
+        <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <path d="M30 8 L52 20 L52 42 L30 54 L8 42 L8 20 Z" stroke="var(--accent-purple)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+          <circle cx="30" cy="30" r="10" stroke="var(--accent-purple)" stroke-width="2" fill="none"/>
+          <path d="M30 20 L30 14" stroke="var(--accent-purple)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M30 46 L30 40" stroke="var(--accent-purple)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M20 30 L14 30" stroke="var(--accent-purple)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M46 30 L40 30" stroke="var(--accent-purple)" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3>Cybersecurity & IT</h3>
+      <ul>
+        <li>Cybersecurity Awareness</li>
+        <li>Digital Safety Practices</li>
+        <li>Secure User Experience Design</li>
+        <li>Computer Diagnostics</li>
+        <li>Software Troubleshooting</li>
+        <li>System Maintenance</li>
+      </ul>
+    </div>
+
+    <div class="skill-card collage-reveal" style="--rot: 0.5deg;">
+      <div class="skill-card-icon">
+        <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <circle cx="30" cy="22" r="10" stroke="var(--accent-green)" stroke-width="2.5" fill="none"/>
+          <path d="M12 50 C12 38, 20 32, 30 32 C40 32, 48 38, 48 50" stroke="var(--accent-green)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M42 14 L50 6" stroke="var(--accent-green)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M46 18 L52 14" stroke="var(--accent-green)" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="48" cy="8" r="3" stroke="var(--accent-green)" stroke-width="1.5" fill="none"/>
+        </svg>
+      </div>
+      <h3>Consulting & Training</h3>
+      <ul>
+        <li>IT Consulting</li>
+        <li>Technical Support</li>
+        <li>User Experience Thinking</li>
+        <li>Digital Literacy Training</li>
+        <li>User Education & Training</li>
+      </ul>
+    </div>
+
+    <div class="skill-card collage-reveal" style="--rot: -0.7deg;">
+      <div class="skill-card-icon">
+        <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <path d="M15 45 L15 20 L30 10 L45 20 L45 45" stroke="var(--accent-red)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+          <rect x="22" y="30" width="16" height="15" stroke="var(--accent-red)" stroke-width="2" fill="none"/>
+          <path d="M26 30 L26 24 L34 24 L34 30" stroke="var(--accent-red)" stroke-width="1.5" fill="none"/>
+          <circle cx="30" cy="38" r="2" fill="var(--accent-red)"/>
+          <path d="M8 50 L52 50" stroke="var(--accent-red)" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3>Creative Systems</h3>
+      <ul>
+        <li>Pattern Recognition</li>
+        <li>Systems Thinking</li>
+        <li>Iterative Design</li>
+        <li>Creative Problem-Solving</li>
+        <li>UX-Informed Architecture</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="page-number" aria-hidden="true">5</div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="education scrapbook-page" id="education" aria-label="Education and Certifications">
+  <div class="washi-tape washi-blue" style="top: 15px; right: 80px; transform: rotate(10deg); z-index: 10;" aria-hidden="true"></div>
+
+  <div class="section-header">
+    <div class="scrap-banner collage-reveal" style="--rot: -1deg;">
+      <h2>EDUCATION & CERTIFICATIONS</h2>
+    </div>
+  </div>
+
+  <div class="edu-grid">
+    <article class="edu-card collage-reveal" style="--rot: -1deg;" aria-label="Certificate in Music Production">
+      <div class="edu-card-year">2022</div>
+      <h3>Certificate in Music Production</h3>
+      <div class="institution">University of Malawi, Chancellor College</div>
+      <p>Developed skills in pattern recognition, iterative design, systems thinking, and creative problem-solving that continue to influence front-end development and UX decision-making.</p>
+    </article>
+
+    <article class="edu-card collage-reveal" style="--rot: 0.7deg;" aria-label="Level 4 Diploma in Computing">
+      <div class="edu-card-year">2019 - 2020</div>
+      <h3>Level 4 Diploma in Computing</h3>
+      <div class="institution">National College of Information Technology (NACIT)</div>
+      <p>Provided foundational knowledge in information technology, computer systems, hardware diagnostics, networking concepts, and digital infrastructure.</p>
+    </article>
+
+    <article class="edu-card collage-reveal" style="--rot: -0.5deg;" aria-label="Malawi School Certificate of Education">
+      <div class="edu-card-year">2017</div>
+      <h3>Malawi School Certificate of Education (MSCE)</h3>
+      <div class="institution">Chinsapo Secondary School</div>
+      <p>Established a foundation in analytical thinking, communication, and problem-solving.</p>
+    </article>
+  </div>
+
+  <div class="cert-list">
+    <h3 class="collage-reveal" style="--rot: 0deg;">Certifications & Achievements</h3>
+    <div class="cert-items">
+      <div class="cert-item collage-reveal" style="--rot: -0.5deg;">
+        <span class="cert-icon" aria-hidden="true">🏆</span>
+        <span>Completed betPawa's global pawaTech training program with distinction</span>
+      </div>
+      <div class="cert-item collage-reveal" style="--rot: 0.4deg;">
+        <span class="cert-icon" aria-hidden="true">📜</span>
+        <span>Earned six Excellence Certificates through the pawaTech program</span>
+      </div>
+      <div class="cert-item collage-reveal" style="--rot: -0.3deg;">
+        <span class="cert-icon" aria-hidden="true"></span>
+        <span>75%+ First Contact Resolution rate at betPawa</span>
+      </div>
+      <div class="cert-item collage-reveal" style="--rot: 0.6deg;">
+        <span class="cert-icon" aria-hidden="true">🎓</span>
+        <span>Trained 50+ individuals and small businesses in digital literacy and cybersecurity</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stamp" style="top: 40px; right: 40px; border-color: var(--ink-dark); color: var(--ink-dark); width: 90px; height: 90px; font-size: 12px;" aria-hidden="true">
+    CERTIFIED<br>PRO
+  </div>
+
+  <div class="page-number" aria-hidden="true">6</div>
+</section>
+
+<!-- ===== TIMELINE ===== -->
+<section class="timeline-section scrapbook-page" id="timeline" aria-label="Professional Timeline">
+  <div class="section-header">
+    <div class="scrap-banner collage-reveal" style="--rot: -1deg;">
+      <h2>PROFESSIONAL TIMELINE</h2>
+    </div>
+  </div>
+
+  <div class="timeline" role="list">
+    <div class="timeline-item collage-reveal" style="--rot: 0deg;" role="listitem">
+      <div class="timeline-year">2017</div>
+      <div class="timeline-title">MSCE - Chinsapo Secondary School</div>
+      <div class="timeline-desc">Completed Malawi School Certificate of Education</div>
+    </div>
+    <div class="timeline-item collage-reveal" style="--rot: 0.3deg;" role="listitem">
+      <div class="timeline-year">2019 - 2020</div>
+      <div class="timeline-title">Level 4 Diploma in Computing - NACIT</div>
+      <div class="timeline-desc">IT infrastructure, hardware diagnostics, digital systems</div>
+    </div>
+    <div class="timeline-item collage-reveal" style="--rot: -0.3deg;" role="listitem">
+      <div class="timeline-year">2020</div>
+      <div class="timeline-title">Founded IT Consulting Practice</div>
+      <div class="timeline-desc">Established independent freelance technology services</div>
+    </div>
+    <div class="timeline-item collage-reveal" style="--rot: 0.2deg;" role="listitem">
+      <div class="timeline-year">2022</div>
+      <div class="timeline-title">Certificate in Music Production</div>
+      <div class="timeline-desc">University of Malawi, Chancellor College</div>
+    </div>
+    <div class="timeline-item collage-reveal" style="--rot: -0.2deg;" role="listitem">
+      <div class="timeline-year">2024 - 2025</div>
+      <div class="timeline-title">Credit Officer - Yellow Solar Africa</div>
+      <div class="timeline-desc">Digital repayment portfolios and credit risk assessment</div>
+    </div>
+    <div class="timeline-item collage-reveal" style="--rot: 0.4deg;" role="listitem">
+      <div class="timeline-year">2025 - Present</div>
+      <div class="timeline-title">Customer Support Agent - betPawa</div>
+      <div class="timeline-desc">Multi-channel support, front-end troubleshooting, KYC</div>
+    </div>
+  </div>
+
+  <div class="page-number" aria-hidden="true">7</div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact scrapbook-page" id="contact" aria-label="Contact Information">
+  <div class="washi-tape washi-yellow" style="bottom: 20px; left: 40px; transform: rotate(-6deg); z-index: 10;" aria-hidden="true"></div>
+
+  <div class="contact-image">
+    <div class="polaroid collage-reveal" style="--rot: 2deg;">
+      <img src="https://image.qwenlm.ai/public_source/1a96a020-39a0-4d81-b337-71d6f3500065/15f9ec620-e569-49dc-97e9-2802b7db1606.png" alt="Illustrated portrait of Atupele Mkagula in professional attire" style="width: 100%;" loading="lazy">
+      <div class="polaroid-caption">Let's work together</div>
+    </div>
+  </div>
+
+  <div class="contact-content">
+    <div class="section-label collage-reveal" style="--rot: 0deg; margin-bottom: 12px;">Get In Touch</div>
+    <h2 class="collage-reveal" style="--rot: -1deg; font-size: 32px; font-weight: 900; margin-bottom: 24px; line-height: 1.2;">
+      Let's Build Something<br>
+      <span style="background: var(--tape-yellow); padding: 2px 8px;">Great Together</span>
+    </h2>
+
+    <div class="contact-info-card collage-reveal" style="--rot: -1deg;">
+      <h3>Contact Details</h3>
+
+      <a href="mailto:atupelemkagulaofficial@gmail.com" class="contact-link" aria-label="Email Atupele">
+        <span class="link-icon" aria-hidden="true">mail</span>
+        <span>atupelemkagulaofficial@gmail.com</span>
+      </a>
+
+      <a href="tel:+265881762894" class="contact-link" aria-label="Call Atupele">
+        <span class="link-icon" aria-hidden="true">call</span>
+        <span>+265 881 762 894</span>
+      </a>
+
+      <a href="https://about.me/atupele.mkagula" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Visit personal website">
+        <span class="link-icon" aria-hidden="true">language</span>
+        <span>about.me/atupele.mkagula</span>
+      </a>
+
+      <a href="https://linkedin.com/in/atupele-mkagula" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="LinkedIn profile">
+        <span class="link-icon" aria-hidden="true">work</span>
+        <span>linkedin.com/in/atupele-mkagula</span>
+      </a>
+
+      <a href="https://github.com/lord-tupe" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub profile">
+        <span class="link-icon" aria-hidden="true">code</span>
+        <span>github.com/lord-tupe</span>
+      </a>
+
+      <a href="https://twitter.com/lord_tupe" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="X Twitter profile">
+        <span class="link-icon" aria-hidden="true">alternate_email</span>
+        <span>@lord_tupe</span>
+      </a>
+    </div>
+
+    <a href="mailto:atupelemkagulaofficial@gmail.com" class="banner-connect scrap-banner collage-reveal" style="--rot: -3deg;">
+      CONNECT WITH ME
+    </a>
+  </div>
+
+  <div class="stamp" style="top: 40px; right: 40px; border-color: var(--ink-dark); color: var(--ink-dark); width: 90px; height: 90px; font-size: 12px;" aria-hidden="true">
+    LET'S<br>TALK!
+  </div>
+
+  <svg class="scrap-deco" style="bottom: 40px; right: 60px;" width="80" height="80" viewBox="0 0 80 80" aria-hidden="true">
+    <path d="M10 40 Q20 10, 40 20 T70 40" stroke="var(--ink-dark)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3" stroke-dasharray="4 3"/>
+    <circle cx="70" cy="40" r="4" fill="var(--accent-pink)" opacity="0.5"/>
+  </svg>
+
+  <div class="page-number" aria-hidden="true">8</div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="scrap-footer" role="contentinfo">
+  <p>© <span id="copyright-year"></span> Atupele Nathan Mkagula. All rights reserved.</p>
+  <!-- Removed the line "Built with vanilla HTML, CSS & JavaScript from Blantyre, Malawi" -->
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<!-- Lottie and GSAP libraries from CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== THEME TOGGLE =====
+  var themeToggle = document.getElementById('themeToggle');
+  var htmlEl = document.documentElement;
+  var STORAGE_KEY = 'atupele-theme';
+
+  function getPreferredTheme() {
+    var stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) return stored;
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+    return 'light';
+  }
+
+  function applyTheme(theme) {
+    htmlEl.setAttribute('data-theme', theme);
+    themeToggle.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+
+  applyTheme(getPreferredTheme());
+
+  themeToggle.addEventListener('click', function() {
+    var current = htmlEl.getAttribute('data-theme') || 'light';
+    var next = current === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(STORAGE_KEY, next);
+    applyTheme(next);
+  });
+
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      if (!localStorage.getItem(STORAGE_KEY)) {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+  }
+
+  // ===== DYNAMIC COPYRIGHT YEAR =====
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+  // ===== MOBILE NAVIGATION =====
+  var navToggle = document.getElementById('navToggle');
+  var scrapNav = document.getElementById('scrapNav');
+  var navOverlay = document.getElementById('navOverlay');
+
+  function openNav() {
+    scrapNav.classList.add('open');
+    navOverlay.classList.add('active');
+    navToggle.setAttribute('aria-expanded', 'true');
+    navToggle.textContent = '✕';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeNav() {
+    scrapNav.classList.remove('open');
+    navOverlay.classList.remove('active');
+    navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.textContent = '☰';
+    document.body.style.overflow = '';
+  }
+
+  navToggle.addEventListener('click', function() {
+    if (scrapNav.classList.contains('open')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  });
+
+  navOverlay.addEventListener('click', closeNav);
+
+  scrapNav.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      if (window.innerWidth <= 768) {
+        closeNav();
+      }
+    });
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && scrapNav.classList.contains('open')) {
+      closeNav();
+      navToggle.focus();
+    }
+  });
+
+  // ===== REDUCED MOTION CHECK =====
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ===== INTERSECTION OBSERVER FOR REVEAL ANIMATIONS =====
+  if (!prefersReducedMotion) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+    document.querySelectorAll('.collage-reveal').forEach(function(el, i) {
+      el.style.transitionDelay = (i % 4) * 0.1 + 's';
+      revealObserver.observe(el);
+    });
+
+    var stampObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          setTimeout(function() {
+            entry.target.classList.add('visible');
+          }, 400);
+          stampObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    document.querySelectorAll('.stamp').forEach(function(el) {
+      stampObserver.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.collage-reveal, .stamp').forEach(function(el) {
+      el.classList.add('visible');
+    });
+  }
+
+  // ===== SCROLL TO TOP BUTTON =====
+  var scrollTopBtn = document.getElementById('scrollTop');
+  var scrollTicking = false;
+
+  window.addEventListener('scroll', function() {
+    if (!scrollTicking) {
+      requestAnimationFrame(function() {
+        if (window.scrollY > 400) {
+          scrollTopBtn.classList.add('visible');
+        } else {
+          scrollTopBtn.classList.remove('visible');
+        }
+        scrollTicking = false;
+      });
+      scrollTicking = true;
+    }
+  }, { passive: true });
+
+  scrollTopBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // ===== CANVAS PARTICLE SYSTEM (Performance Optimized) =====
+  var canvas = document.getElementById('particleCanvas');
+  if (canvas && !prefersReducedMotion) {
+    var ctx = canvas.getContext('2d');
+    var particles = [];
+    var animationId;
+    var isMobile = window.innerWidth < 768;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var particleCount = isMobile ? 25 : 50;
+
+    function resizeCanvas() {
+      var hero = document.getElementById('hero');
+      if (hero) {
+        canvas.width = hero.offsetWidth * dpr;
+        canvas.height = hero.offsetHeight * dpr;
+        canvas.style.width = hero.offsetWidth + 'px';
+        canvas.style.height = hero.offsetHeight + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+    }
+
+    function createParticle() {
+      return {
+        x: Math.random() * (canvas.width / dpr),
+        y: Math.random() * (canvas.height / dpr),
+        size: Math.random() * 2.5 + 1,
+        speedX: (Math.random() - 0.5) * 0.4,
+        speedY: (Math.random() - 0.5) * 0.4,
+        opacity: Math.random() * 0.4 + 0.1,
+        shape: Math.random() > 0.5 ? 'circle' : 'square'
+      };
+    }
+
+    function initParticles() {
+      particles = [];
+      for (var i = 0; i < particleCount; i++) {
+        particles.push(createParticle());
+      }
+    }
+
+    function drawParticles() {
+      var width = canvas.width / dpr;
+      var height = canvas.height / dpr;
+      ctx.clearRect(0, 0, width, height);
+
+      // Read current theme colors
+      var computedStyle = getComputedStyle(document.documentElement);
+      var particleColor = computedStyle.getPropertyValue('--particle-color').trim() || '#ffffff';
+      var lineColor = computedStyle.getPropertyValue('--particle-line-color').trim() || '#ffffff';
+
+      particles.forEach(function(p) {
+        ctx.globalAlpha = p.opacity;
+        ctx.fillStyle = particleColor;
+
+        if (p.shape === 'circle') {
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          ctx.fillRect(p.x - p.size / 2, p.y - p.size / 2, p.size, p.size);
+        }
+
+        p.x += p.speedX;
+        p.y += p.speedY;
+
+        if (p.x < 0) p.x = width;
+        if (p.x > width) p.x = 0;
+        if (p.y < 0) p.y = height;
+        if (p.y > height) p.y = 0;
+      });
+
+      ctx.globalAlpha = 0.08;
+      ctx.strokeStyle = lineColor;
+      ctx.lineWidth = 0.5;
+
+      for (var i = 0; i < particles.length; i++) {
+        for (var j = i + 1; j < particles.length; j++) {
+          var dx = particles[i].x - particles[j].x;
+          var dy = particles[i].y - particles[j].y;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < 100) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+
+      animationId = requestAnimationFrame(drawParticles);
+    }
+
+    resizeCanvas();
+    initParticles();
+    drawParticles();
+
+    var resizeTimeout;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(function() {
+        isMobile = window.innerWidth < 768;
+        particleCount = isMobile ? 25 : 50;
+        resizeCanvas();
+        initParticles();
+      }, 200);
+    });
+
+    var heroSection = document.getElementById('hero');
+    var heroObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          if (!animationId) drawParticles();
+        } else {
+          if (animationId) {
+            cancelAnimationFrame(animationId);
+            animationId = null;
+          }
+        }
+      });
+    }, { threshold: 0.1 });
+
+    heroObserver.observe(heroSection);
+  }
+
+  // ===== LOTTIE ANIMATION (Lazy Loaded) =====
+  function loadLottie() {
+    if (typeof lottie === 'undefined' || prefersReducedMotion) return;
+    var container = document.getElementById('lottie-music');
+    if (!container) return;
+    try {
+      lottie.loadAnimation({
+        container: container,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://assets2.lottiefiles.com/packages/lf20_puciaevh.json'
+      });
+    } catch (e) {
+      // Silently fail if Lottie doesn't load
+    }
+  }
+
+  var lottieObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        loadLottie();
+        lottieObserver.disconnect();
+      }
+    });
+  }, { threshold: 0.1 });
+
+  var lottieContainer = document.getElementById('lottie-music');
+  if (lottieContainer) {
+    lottieObserver.observe(lottieContainer);
+  }
+
+  // ===== GSAP SCROLLTRIGGER PARALLAX =====
+  function initGSAP() {
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined' || prefersReducedMotion) return;
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to('.hero-label', {
+      y: -30,
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+
+    gsap.to('.hero-tagline', {
+      y: -20,
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+
+    gsap.to('.banner-pink', {
+      y: -40,
+      scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+
+    gsap.to('.about-image .polaroid', {
+      y: -50,
+      rotation: -1,
+      scrollTrigger: {
+        trigger: '.about',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+
+    gsap.to('.contact-image .polaroid', {
+      y: -30,
+      rotation: 1,
+      scrollTrigger: {
+        trigger: '.contact',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+  }
+
+  // Wait for GSAP to load
+  if (typeof gsap !== 'undefined') {
+    initGSAP();
+  } else {
+    window.addEventListener('load', function() {
+      setTimeout(initGSAP, 100);
+    });
+  }
+
+  // ===== PARALLAX ON MOUSE MOVE (HERO) =====
+  if (!prefersReducedMotion) {
+    var heroEl = document.getElementById('hero');
+    var mouseTicking = false;
+
+    heroEl.addEventListener('mousemove', function(e) {
+      if (!mouseTicking) {
+        requestAnimationFrame(function() {
+          var rect = heroEl.getBoundingClientRect();
+          var x = (e.clientX - rect.left) / rect.width - 0.5;
+          var y = (e.clientY - rect.top) / rect.height - 0.5;
+
+          var banners = heroEl.querySelectorAll('.scrap-banner, .polaroid');
+          banners.forEach(function(banner, i) {
+            var depth = (i + 1) * 6;
+            var currentRot = banner.style.getPropertyValue('--rot') || '0deg';
+            banner.style.transform = 'translate(' + (x * depth) + 'px, ' + (y * depth) + 'px) rotate(' + currentRot + ')';
+          });
+          mouseTicking = false;
+        });
+        mouseTicking = true;
+      }
+    });
+  }
+
+  // ===== CLICK BANNER FOR PAGE FLIP EFFECT =====
+  document.querySelectorAll('.scrap-banner').forEach(function(banner) {
+    banner.addEventListener('click', function() {
+      banner.style.transition = 'transform 0.3s ease';
+      banner.style.transform = 'rotate(0deg) scale(1.08)';
+      setTimeout(function() {
+        banner.style.transform = '';
+      }, 300);
+    });
+  });
+
+  // ===== INITIAL LOAD ANIMATION =====
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.hero .collage-reveal').forEach(function(el, i) {
+      setTimeout(function() {
+        el.classList.add('visible');
+      }, 200 + i * 150);
+    });
+  });
+
+})();
+</script>
+
+</body>
+</html>
